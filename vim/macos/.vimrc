@@ -64,6 +64,15 @@ set t_vb=
 set tm=500
 
 " Remaps
-nnoremap Q :q<CR>
+nnoremap # #zz
+nnoremap * *zz
+nnoremap n nzz
+nnoremap N Nzz
 nnoremap o o<Esc>
 nnoremap O O<Esc>
+nnoremap Q <Esc>:q<CR>
+nnoremap g# g#zz
+nnoremap g* g*zz
+nnoremap <space> zz
+vnoremap P "_dP
+vnoremap p "_dp
